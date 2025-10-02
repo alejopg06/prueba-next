@@ -3,7 +3,6 @@ name: testNext
 on:
   push:
     branches: ['main']
-    types: ['closed']
   workflow_dispatch:
 
 jobs:
